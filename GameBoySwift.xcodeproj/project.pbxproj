@@ -7,242 +7,243 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		879BCD1823025647000FAB1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879BCD1723025647000FAB1E /* AppDelegate.swift */; };
-		879BCD1A23025647000FAB1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879BCD1923025647000FAB1E /* SceneDelegate.swift */; };
-		879BCD1C23025647000FAB1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879BCD1B23025647000FAB1E /* ContentView.swift */; };
-		879BCD1E23025648000FAB1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879BCD1D23025648000FAB1E /* Assets.xcassets */; };
-		879BCD2123025648000FAB1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879BCD2023025648000FAB1E /* Preview Assets.xcassets */; };
-		879BCD2423025648000FAB1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879BCD2223025648000FAB1E /* LaunchScreen.storyboard */; };
-		879BCD47230256E4000FAB1E /* GameBoySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879BCD2B23025648000FAB1E /* GameBoySwift.framework */; };
-		879BCD48230256E4000FAB1E /* GameBoySwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 879BCD2B23025648000FAB1E /* GameBoySwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		879BCD5F230259B9000FAB1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879BCD5E230259B9000FAB1E /* AppDelegate.swift */; };
-		879BCD61230259B9000FAB1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879BCD60230259B9000FAB1E /* ContentView.swift */; };
-		879BCD63230259BB000FAB1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879BCD62230259BB000FAB1E /* Assets.xcassets */; };
-		879BCD66230259BB000FAB1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879BCD65230259BB000FAB1E /* Preview Assets.xcassets */; };
-		879BCD69230259BB000FAB1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879BCD67230259BB000FAB1E /* Main.storyboard */; };
-		879BCD6F230259C9000FAB1E /* GameBoySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879BCD2923025648000FAB1E /* GameBoySwift.framework */; };
-		879BCD70230259C9000FAB1E /* GameBoySwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 879BCD2923025648000FAB1E /* GameBoySwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		879BCDF723025F29000FAB1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879BCDF623025F29000FAB1E /* AppDelegate.swift */; };
+		879BCDF923025F29000FAB1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879BCDF823025F29000FAB1E /* SceneDelegate.swift */; };
+		879BCDFB23025F29000FAB1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879BCDFA23025F29000FAB1E /* ContentView.swift */; };
+		879BCDFD23025F2A000FAB1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879BCDFC23025F2A000FAB1E /* Assets.xcassets */; };
+		879BCE0023025F2A000FAB1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879BCDFF23025F2A000FAB1E /* Preview Assets.xcassets */; };
+		879BCE0323025F2A000FAB1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879BCE0123025F2A000FAB1E /* LaunchScreen.storyboard */; };
+		879BCE1023025F7F000FAB1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879BCE0F23025F7F000FAB1E /* AppDelegate.swift */; };
+		879BCE1223025F7F000FAB1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879BCE1123025F7F000FAB1E /* ContentView.swift */; };
+		879BCE1423025F80000FAB1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879BCE1323025F80000FAB1E /* Assets.xcassets */; };
+		879BCE1723025F80000FAB1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879BCE1623025F80000FAB1E /* Preview Assets.xcassets */; };
+		879BCE1A23025F80000FAB1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879BCE1823025F80000FAB1E /* Main.storyboard */; };
+		879BCE2F2302600B000FAB1E /* GameBoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879BCE2E2302600B000FAB1E /* GameBoy.swift */; };
+		879BCE302302600B000FAB1E /* GameBoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879BCE2E2302600B000FAB1E /* GameBoy.swift */; };
+		879BCE4723026128000FAB1E /* GameBoySwift_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879BCE4623026128000FAB1E /* GameBoySwift_Tests.swift */; };
+		879BCE4F2302637B000FAB1E /* Cpu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879BCE4E2302637B000FAB1E /* Cpu.swift */; };
+		879BCE502302637B000FAB1E /* Cpu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879BCE4E2302637B000FAB1E /* Cpu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		879BCD2823025648000FAB1E /* PBXContainerItemProxy */ = {
+		879BCE4923026128000FAB1E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 879BCCF2230254C8000FAB1E /* GameBoySwiftFramework.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 879BCCFA2302553D000FAB1E;
-			remoteInfo = "GameBoySwift-macOS";
-		};
-		879BCD2A23025648000FAB1E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 879BCCF2230254C8000FAB1E /* GameBoySwiftFramework.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 879BCD08230255D9000FAB1E;
-			remoteInfo = "GameBoySwift-iOS";
+			containerPortal = 879BCDE923025E54000FAB1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 879BCE0C23025F7F000FAB1E;
+			remoteInfo = "GameBoySwift macOS";
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		879BCD49230256E4000FAB1E /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				879BCD48230256E4000FAB1E /* GameBoySwift.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		879BCD71230259C9000FAB1E /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				879BCD70230259C9000FAB1E /* GameBoySwift.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		879BCCF2230254C8000FAB1E /* GameBoySwiftFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GameBoySwiftFramework.xcodeproj; path = GameBoySwiftFramework/GameBoySwiftFramework.xcodeproj; sourceTree = "<group>"; };
-		879BCD1423025647000FAB1E /* GameBoySwift-iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GameBoySwift-iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		879BCD1723025647000FAB1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		879BCD1923025647000FAB1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		879BCD1B23025647000FAB1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		879BCD1D23025648000FAB1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		879BCD2023025648000FAB1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		879BCD2323025648000FAB1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		879BCD2523025648000FAB1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		879BCD5C230259B9000FAB1E /* GameBoySwift-mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GameBoySwift-mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		879BCD5E230259B9000FAB1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		879BCD60230259B9000FAB1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		879BCD62230259BB000FAB1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		879BCD65230259BB000FAB1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		879BCD68230259BB000FAB1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		879BCD6A230259BB000FAB1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		879BCD6B230259BB000FAB1E /* GameBoySwift_mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GameBoySwift_mac.entitlements; sourceTree = "<group>"; };
+		879BCDF323025F29000FAB1E /* GameBoySwift iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GameBoySwift iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		879BCDF623025F29000FAB1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		879BCDF823025F29000FAB1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		879BCDFA23025F29000FAB1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		879BCDFC23025F2A000FAB1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		879BCDFF23025F2A000FAB1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		879BCE0223025F2A000FAB1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		879BCE0423025F2A000FAB1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		879BCE0D23025F7F000FAB1E /* GameBoySwift macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GameBoySwift macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		879BCE0F23025F7F000FAB1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		879BCE1123025F7F000FAB1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		879BCE1323025F80000FAB1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		879BCE1623025F80000FAB1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		879BCE1923025F80000FAB1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		879BCE1B23025F80000FAB1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		879BCE1C23025F80000FAB1E /* GameBoySwift_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GameBoySwift_macOS.entitlements; sourceTree = "<group>"; };
+		879BCE2E2302600B000FAB1E /* GameBoy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoy.swift; sourceTree = "<group>"; };
+		879BCE4423026128000FAB1E /* GameBoySwift Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GameBoySwift Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		879BCE4623026128000FAB1E /* GameBoySwift_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoySwift_Tests.swift; sourceTree = "<group>"; };
+		879BCE4823026128000FAB1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		879BCE4E2302637B000FAB1E /* Cpu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cpu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		879BCD1123025647000FAB1E /* Frameworks */ = {
+		879BCDF023025F29000FAB1E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				879BCD47230256E4000FAB1E /* GameBoySwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		879BCD59230259B9000FAB1E /* Frameworks */ = {
+		879BCE0A23025F7F000FAB1E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				879BCD6F230259C9000FAB1E /* GameBoySwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879BCE4123026128000FAB1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		879BCCDA23025084000FAB1E = {
+		879BCDE823025E54000FAB1E = {
 			isa = PBXGroup;
 			children = (
-				879BCCF2230254C8000FAB1E /* GameBoySwiftFramework.xcodeproj */,
-				879BCD1623025647000FAB1E /* GameBoySwift-iPhone */,
-				879BCD5D230259B9000FAB1E /* GameBoySwift-mac */,
-				879BCD1523025647000FAB1E /* Products */,
-				879BCD46230256E4000FAB1E /* Frameworks */,
+				879BCE0823025F37000FAB1E /* GameBoySwift Shared */,
+				879BCDF523025F29000FAB1E /* GameBoySwift iOS */,
+				879BCE0E23025F7F000FAB1E /* GameBoySwift macOS */,
+				879BCE4523026128000FAB1E /* GameBoySwift Tests */,
+				879BCDF423025F29000FAB1E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		879BCCF3230254C8000FAB1E /* Products */ = {
+		879BCDF423025F29000FAB1E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				879BCD2923025648000FAB1E /* GameBoySwift.framework */,
-				879BCD2B23025648000FAB1E /* GameBoySwift.framework */,
+				879BCDF323025F29000FAB1E /* GameBoySwift iOS.app */,
+				879BCE0D23025F7F000FAB1E /* GameBoySwift macOS.app */,
+				879BCE4423026128000FAB1E /* GameBoySwift Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		879BCD1523025647000FAB1E /* Products */ = {
+		879BCDF523025F29000FAB1E /* GameBoySwift iOS */ = {
 			isa = PBXGroup;
 			children = (
-				879BCD1423025647000FAB1E /* GameBoySwift-iPhone.app */,
-				879BCD5C230259B9000FAB1E /* GameBoySwift-mac.app */,
+				879BCDF623025F29000FAB1E /* AppDelegate.swift */,
+				879BCDF823025F29000FAB1E /* SceneDelegate.swift */,
+				879BCDFA23025F29000FAB1E /* ContentView.swift */,
+				879BCDFC23025F2A000FAB1E /* Assets.xcassets */,
+				879BCE0123025F2A000FAB1E /* LaunchScreen.storyboard */,
+				879BCE0423025F2A000FAB1E /* Info.plist */,
+				879BCDFE23025F2A000FAB1E /* Preview Content */,
 			);
-			name = Products;
+			path = "GameBoySwift iOS";
 			sourceTree = "<group>";
 		};
-		879BCD1623025647000FAB1E /* GameBoySwift-iPhone */ = {
+		879BCDFE23025F2A000FAB1E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				879BCD1723025647000FAB1E /* AppDelegate.swift */,
-				879BCD1923025647000FAB1E /* SceneDelegate.swift */,
-				879BCD1B23025647000FAB1E /* ContentView.swift */,
-				879BCD1D23025648000FAB1E /* Assets.xcassets */,
-				879BCD2223025648000FAB1E /* LaunchScreen.storyboard */,
-				879BCD2523025648000FAB1E /* Info.plist */,
-				879BCD1F23025648000FAB1E /* Preview Content */,
-			);
-			path = "GameBoySwift-iPhone";
-			sourceTree = "<group>";
-		};
-		879BCD1F23025648000FAB1E /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				879BCD2023025648000FAB1E /* Preview Assets.xcassets */,
+				879BCDFF23025F2A000FAB1E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		879BCD46230256E4000FAB1E /* Frameworks */ = {
+		879BCE0823025F37000FAB1E /* GameBoySwift Shared */ = {
 			isa = PBXGroup;
 			children = (
+				879BCE2E2302600B000FAB1E /* GameBoy.swift */,
+				879BCE4E2302637B000FAB1E /* Cpu.swift */,
 			);
-			name = Frameworks;
+			path = "GameBoySwift Shared";
 			sourceTree = "<group>";
 		};
-		879BCD5D230259B9000FAB1E /* GameBoySwift-mac */ = {
+		879BCE0E23025F7F000FAB1E /* GameBoySwift macOS */ = {
 			isa = PBXGroup;
 			children = (
-				879BCD5E230259B9000FAB1E /* AppDelegate.swift */,
-				879BCD60230259B9000FAB1E /* ContentView.swift */,
-				879BCD62230259BB000FAB1E /* Assets.xcassets */,
-				879BCD67230259BB000FAB1E /* Main.storyboard */,
-				879BCD6A230259BB000FAB1E /* Info.plist */,
-				879BCD6B230259BB000FAB1E /* GameBoySwift_mac.entitlements */,
-				879BCD64230259BB000FAB1E /* Preview Content */,
+				879BCE0F23025F7F000FAB1E /* AppDelegate.swift */,
+				879BCE1123025F7F000FAB1E /* ContentView.swift */,
+				879BCE1323025F80000FAB1E /* Assets.xcassets */,
+				879BCE1823025F80000FAB1E /* Main.storyboard */,
+				879BCE1B23025F80000FAB1E /* Info.plist */,
+				879BCE1C23025F80000FAB1E /* GameBoySwift_macOS.entitlements */,
+				879BCE1523025F80000FAB1E /* Preview Content */,
 			);
-			path = "GameBoySwift-mac";
+			path = "GameBoySwift macOS";
 			sourceTree = "<group>";
 		};
-		879BCD64230259BB000FAB1E /* Preview Content */ = {
+		879BCE1523025F80000FAB1E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				879BCD65230259BB000FAB1E /* Preview Assets.xcassets */,
+				879BCE1623025F80000FAB1E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		879BCE4523026128000FAB1E /* GameBoySwift Tests */ = {
+			isa = PBXGroup;
+			children = (
+				879BCE4623026128000FAB1E /* GameBoySwift_Tests.swift */,
+				879BCE4823026128000FAB1E /* Info.plist */,
+			);
+			path = "GameBoySwift Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		879BCD1323025647000FAB1E /* GameBoySwift-iPhone */ = {
+		879BCDF223025F29000FAB1E /* GameBoySwift iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 879BCD2C23025648000FAB1E /* Build configuration list for PBXNativeTarget "GameBoySwift-iPhone" */;
+			buildConfigurationList = 879BCE0523025F2A000FAB1E /* Build configuration list for PBXNativeTarget "GameBoySwift iOS" */;
 			buildPhases = (
-				879BCD1023025647000FAB1E /* Sources */,
-				879BCD1123025647000FAB1E /* Frameworks */,
-				879BCD1223025647000FAB1E /* Resources */,
-				879BCD49230256E4000FAB1E /* Embed Frameworks */,
+				879BCDEF23025F29000FAB1E /* Sources */,
+				879BCDF023025F29000FAB1E /* Frameworks */,
+				879BCDF123025F29000FAB1E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "GameBoySwift-iPhone";
-			productName = "GameBoySwift-iPhone";
-			productReference = 879BCD1423025647000FAB1E /* GameBoySwift-iPhone.app */;
+			name = "GameBoySwift iOS";
+			productName = "GameBoySwift iOS";
+			productReference = 879BCDF323025F29000FAB1E /* GameBoySwift iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		879BCD5B230259B9000FAB1E /* GameBoySwift-mac */ = {
+		879BCE0C23025F7F000FAB1E /* GameBoySwift macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 879BCD6C230259BB000FAB1E /* Build configuration list for PBXNativeTarget "GameBoySwift-mac" */;
+			buildConfigurationList = 879BCE1D23025F80000FAB1E /* Build configuration list for PBXNativeTarget "GameBoySwift macOS" */;
 			buildPhases = (
-				879BCD58230259B9000FAB1E /* Sources */,
-				879BCD59230259B9000FAB1E /* Frameworks */,
-				879BCD5A230259B9000FAB1E /* Resources */,
-				879BCD71230259C9000FAB1E /* Embed Frameworks */,
+				879BCE0923025F7F000FAB1E /* Sources */,
+				879BCE0A23025F7F000FAB1E /* Frameworks */,
+				879BCE0B23025F7F000FAB1E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "GameBoySwift-mac";
-			productName = "GameBoySwift-mac";
-			productReference = 879BCD5C230259B9000FAB1E /* GameBoySwift-mac.app */;
+			name = "GameBoySwift macOS";
+			productName = "GameBoySwift macOS";
+			productReference = 879BCE0D23025F7F000FAB1E /* GameBoySwift macOS.app */;
 			productType = "com.apple.product-type.application";
+		};
+		879BCE4323026128000FAB1E /* GameBoySwift Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 879BCE4B23026128000FAB1E /* Build configuration list for PBXNativeTarget "GameBoySwift Tests" */;
+			buildPhases = (
+				879BCE4023026128000FAB1E /* Sources */,
+				879BCE4123026128000FAB1E /* Frameworks */,
+				879BCE4223026128000FAB1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				879BCE4A23026128000FAB1E /* PBXTargetDependency */,
+			);
+			name = "GameBoySwift Tests";
+			productName = "GameBoySwift Tests";
+			productReference = 879BCE4423026128000FAB1E /* GameBoySwift Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		879BCCDB23025084000FAB1E /* Project object */ = {
+		879BCDE923025E54000FAB1E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 				TargetAttributes = {
-					879BCD1323025647000FAB1E = {
+					879BCDF223025F29000FAB1E = {
 						CreatedOnToolsVersion = 11.0;
 					};
-					879BCD5B230259B9000FAB1E = {
+					879BCE0C23025F7F000FAB1E = {
 						CreatedOnToolsVersion = 11.0;
+					};
+					879BCE4323026128000FAB1E = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 879BCE0C23025F7F000FAB1E;
 					};
 				};
 			};
-			buildConfigurationList = 879BCCDE23025084000FAB1E /* Build configuration list for PBXProject "GameBoySwift" */;
+			buildConfigurationList = 879BCDEC23025E54000FAB1E /* Build configuration list for PBXProject "GameBoySwift" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -250,98 +251,103 @@
 				en,
 				Base,
 			);
-			mainGroup = 879BCCDA23025084000FAB1E;
-			productRefGroup = 879BCD1523025647000FAB1E /* Products */;
+			mainGroup = 879BCDE823025E54000FAB1E;
+			productRefGroup = 879BCDF423025F29000FAB1E /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 879BCCF3230254C8000FAB1E /* Products */;
-					ProjectRef = 879BCCF2230254C8000FAB1E /* GameBoySwiftFramework.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				879BCD1323025647000FAB1E /* GameBoySwift-iPhone */,
-				879BCD5B230259B9000FAB1E /* GameBoySwift-mac */,
+				879BCDF223025F29000FAB1E /* GameBoySwift iOS */,
+				879BCE0C23025F7F000FAB1E /* GameBoySwift macOS */,
+				879BCE4323026128000FAB1E /* GameBoySwift Tests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		879BCD2923025648000FAB1E /* GameBoySwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = GameBoySwift.framework;
-			remoteRef = 879BCD2823025648000FAB1E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		879BCD2B23025648000FAB1E /* GameBoySwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = GameBoySwift.framework;
-			remoteRef = 879BCD2A23025648000FAB1E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
-		879BCD1223025647000FAB1E /* Resources */ = {
+		879BCDF123025F29000FAB1E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				879BCD2423025648000FAB1E /* LaunchScreen.storyboard in Resources */,
-				879BCD2123025648000FAB1E /* Preview Assets.xcassets in Resources */,
-				879BCD1E23025648000FAB1E /* Assets.xcassets in Resources */,
+				879BCE0323025F2A000FAB1E /* LaunchScreen.storyboard in Resources */,
+				879BCE0023025F2A000FAB1E /* Preview Assets.xcassets in Resources */,
+				879BCDFD23025F2A000FAB1E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		879BCD5A230259B9000FAB1E /* Resources */ = {
+		879BCE0B23025F7F000FAB1E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				879BCD69230259BB000FAB1E /* Main.storyboard in Resources */,
-				879BCD66230259BB000FAB1E /* Preview Assets.xcassets in Resources */,
-				879BCD63230259BB000FAB1E /* Assets.xcassets in Resources */,
+				879BCE1A23025F80000FAB1E /* Main.storyboard in Resources */,
+				879BCE1723025F80000FAB1E /* Preview Assets.xcassets in Resources */,
+				879BCE1423025F80000FAB1E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879BCE4223026128000FAB1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		879BCD1023025647000FAB1E /* Sources */ = {
+		879BCDEF23025F29000FAB1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				879BCD1823025647000FAB1E /* AppDelegate.swift in Sources */,
-				879BCD1A23025647000FAB1E /* SceneDelegate.swift in Sources */,
-				879BCD1C23025647000FAB1E /* ContentView.swift in Sources */,
+				879BCE2F2302600B000FAB1E /* GameBoy.swift in Sources */,
+				879BCE4F2302637B000FAB1E /* Cpu.swift in Sources */,
+				879BCDF723025F29000FAB1E /* AppDelegate.swift in Sources */,
+				879BCDF923025F29000FAB1E /* SceneDelegate.swift in Sources */,
+				879BCDFB23025F29000FAB1E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		879BCD58230259B9000FAB1E /* Sources */ = {
+		879BCE0923025F7F000FAB1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				879BCD61230259B9000FAB1E /* ContentView.swift in Sources */,
-				879BCD5F230259B9000FAB1E /* AppDelegate.swift in Sources */,
+				879BCE502302637B000FAB1E /* Cpu.swift in Sources */,
+				879BCE1223025F7F000FAB1E /* ContentView.swift in Sources */,
+				879BCE302302600B000FAB1E /* GameBoy.swift in Sources */,
+				879BCE1023025F7F000FAB1E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879BCE4023026128000FAB1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879BCE4723026128000FAB1E /* GameBoySwift_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		879BCE4A23026128000FAB1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 879BCE0C23025F7F000FAB1E /* GameBoySwift macOS */;
+			targetProxy = 879BCE4923026128000FAB1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		879BCD2223025648000FAB1E /* LaunchScreen.storyboard */ = {
+		879BCE0123025F2A000FAB1E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				879BCD2323025648000FAB1E /* Base */,
+				879BCE0223025F2A000FAB1E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		879BCD67230259BB000FAB1E /* Main.storyboard */ = {
+		879BCE1823025F80000FAB1E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				879BCD68230259BB000FAB1E /* Base */,
+				879BCE1923025F80000FAB1E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -349,19 +355,19 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		879BCCDF23025084000FAB1E /* Debug */ = {
+		879BCDED23025E54000FAB1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Debug;
 		};
-		879BCCE023025084000FAB1E /* Release */ = {
+		879BCDEE23025E54000FAB1E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Release;
 		};
-		879BCD2D23025648000FAB1E /* Debug */ = {
+		879BCE0623025F2A000FAB1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -397,7 +403,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_ASSET_PATHS = "GameBoySwift-iPhone/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "\"GameBoySwift iOS\"/Preview\\ Content";
 				DEVELOPMENT_TEAM = VE2YF56ZRW;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -416,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "GameBoySwift-iPhone/Info.plist";
+				INFOPLIST_FILE = "GameBoySwift iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -425,7 +431,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cobuci.GameBoySwift-iPhone";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cobuci.GameBoySwift-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -435,7 +441,7 @@
 			};
 			name = Debug;
 		};
-		879BCD2E23025648000FAB1E /* Release */ = {
+		879BCE0723025F2A000FAB1E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -471,7 +477,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_ASSET_PATHS = "GameBoySwift-iPhone/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "\"GameBoySwift iOS\"/Preview\\ Content";
 				DEVELOPMENT_TEAM = VE2YF56ZRW;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_PREVIEWS = YES;
@@ -484,7 +490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "GameBoySwift-iPhone/Info.plist";
+				INFOPLIST_FILE = "GameBoySwift iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -492,7 +498,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cobuci.GameBoySwift-iPhone";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cobuci.GameBoySwift-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -503,7 +509,7 @@
 			};
 			name = Release;
 		};
-		879BCD6D230259BB000FAB1E /* Debug */ = {
+		879BCE1E23025F80000FAB1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -536,12 +542,12 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = "GameBoySwift-mac/GameBoySwift_mac.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "GameBoySwift macOS/GameBoySwift_macOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_ASSET_PATHS = "GameBoySwift-mac/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "\"GameBoySwift macOS\"/Preview\\ Content";
 				DEVELOPMENT_TEAM = VE2YF56ZRW;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -561,7 +567,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "GameBoySwift-mac/Info.plist";
+				INFOPLIST_FILE = "GameBoySwift macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -570,7 +576,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cobuci.GameBoySwift-mac";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cobuci.GameBoySwift-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -579,7 +585,7 @@
 			};
 			name = Debug;
 		};
-		879BCD6E230259BB000FAB1E /* Release */ = {
+		879BCE1F23025F80000FAB1E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -612,12 +618,12 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = "GameBoySwift-mac/GameBoySwift_mac.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "GameBoySwift macOS/GameBoySwift_macOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_ASSET_PATHS = "GameBoySwift-mac/Preview\\ Content";
+				DEVELOPMENT_ASSET_PATHS = "\"GameBoySwift macOS\"/Preview\\ Content";
 				DEVELOPMENT_TEAM = VE2YF56ZRW;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -631,7 +637,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "GameBoySwift-mac/Info.plist";
+				INFOPLIST_FILE = "GameBoySwift macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -639,7 +645,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cobuci.GameBoySwift-mac";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cobuci.GameBoySwift-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -648,37 +654,187 @@
 			};
 			name = Release;
 		};
+		879BCE4C23026128000FAB1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = VE2YF56ZRW;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "GameBoySwift Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cobuci.GameBoySwift-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameBoySwift macOS.app/Contents/MacOS/GameBoySwift macOS";
+			};
+			name = Debug;
+		};
+		879BCE4D23026128000FAB1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = VE2YF56ZRW;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "GameBoySwift Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cobuci.GameBoySwift-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameBoySwift macOS.app/Contents/MacOS/GameBoySwift macOS";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		879BCCDE23025084000FAB1E /* Build configuration list for PBXProject "GameBoySwift" */ = {
+		879BCDEC23025E54000FAB1E /* Build configuration list for PBXProject "GameBoySwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				879BCCDF23025084000FAB1E /* Debug */,
-				879BCCE023025084000FAB1E /* Release */,
+				879BCDED23025E54000FAB1E /* Debug */,
+				879BCDEE23025E54000FAB1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		879BCD2C23025648000FAB1E /* Build configuration list for PBXNativeTarget "GameBoySwift-iPhone" */ = {
+		879BCE0523025F2A000FAB1E /* Build configuration list for PBXNativeTarget "GameBoySwift iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				879BCD2D23025648000FAB1E /* Debug */,
-				879BCD2E23025648000FAB1E /* Release */,
+				879BCE0623025F2A000FAB1E /* Debug */,
+				879BCE0723025F2A000FAB1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		879BCD6C230259BB000FAB1E /* Build configuration list for PBXNativeTarget "GameBoySwift-mac" */ = {
+		879BCE1D23025F80000FAB1E /* Build configuration list for PBXNativeTarget "GameBoySwift macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				879BCD6D230259BB000FAB1E /* Debug */,
-				879BCD6E230259BB000FAB1E /* Release */,
+				879BCE1E23025F80000FAB1E /* Debug */,
+				879BCE1F23025F80000FAB1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		879BCE4B23026128000FAB1E /* Build configuration list for PBXNativeTarget "GameBoySwift Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879BCE4C23026128000FAB1E /* Debug */,
+				879BCE4D23026128000FAB1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 879BCCDB23025084000FAB1E /* Project object */;
+	rootObject = 879BCDE923025E54000FAB1E /* Project object */;
 }

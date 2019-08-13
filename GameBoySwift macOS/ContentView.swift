@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  GameBoySwift-mac
+//  GameBoySwift macOS
 //
-//  Created by Dudu on 12/08/19.
+//  Created by Dudu on 13/08/19.
 //
 
 import SwiftUI

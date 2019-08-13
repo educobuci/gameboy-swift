@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "879BCD07230255D9000FAB1E"
-               BuildableName = "GameBoySwift_iOS.framework"
-               BlueprintName = "GameBoySwift-iOS"
-               ReferencedContainer = "container:GameBoySwiftFramework.xcodeproj">
+               BlueprintIdentifier = "879BCDF223025F29000FAB1E"
+               BuildableName = "GameBoySwift iOS.app"
+               BlueprintName = "GameBoySwift iOS"
+               ReferencedContainer = "container:GameBoySwift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -40,6 +40,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "879BCDF223025F29000FAB1E"
+            BuildableName = "GameBoySwift iOS.app"
+            BlueprintName = "GameBoySwift iOS"
+            ReferencedContainer = "container:GameBoySwift.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -47,15 +57,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "879BCD07230255D9000FAB1E"
-            BuildableName = "GameBoySwift_iOS.framework"
-            BlueprintName = "GameBoySwift-iOS"
-            ReferencedContainer = "container:GameBoySwiftFramework.xcodeproj">
+            BlueprintIdentifier = "879BCDF223025F29000FAB1E"
+            BuildableName = "GameBoySwift iOS.app"
+            BlueprintName = "GameBoySwift iOS"
+            ReferencedContainer = "container:GameBoySwift.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  GameBoySwift-iPhone
+//  GameBoySwift iOS
 //
 //  Created by Dudu on 12/08/19.
 //
